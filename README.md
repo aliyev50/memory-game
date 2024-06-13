@@ -1,6 +1,6 @@
 # Higher Memory Game 
 
-Higher Memory is a simple and engaging memory card game where the objective is to match pairs of cards within a limited number of wrong guesses and a time limit. The game features various travel-related symbols and provides a fun challenge for players of all ages.
+Higher Memory is a simple and engaging memory card game where the objective is to match pairs of cards within a limited number of wrong guesses and a time limit. The game features various travel-related symbols and provides a fun challenge for players of all ages. [Here](https://aliyev50.github.io/memory-game/)
 
 # 1. Technologies used:
 
