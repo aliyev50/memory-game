@@ -1,0 +1,61 @@
+body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0a3c2f;
+    font-family: "Spicy Rice";
+    color: #fff;
+  }
+
+  .gameName {
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d614b;
+    border: 3px solid #fff;
+    width: 500px;
+    height: 500px;
+}
+
+  
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    color: transparent;
+    transition: 1s;
+  }
+
+  .card.flipped,
+  .card.matched {
+    background-color: #fff;
+    color: white;
+  }
+  
+  .message,
+  .timer,
+  .wrong-guesses {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  
