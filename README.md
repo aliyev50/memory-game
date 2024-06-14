@@ -32,7 +32,9 @@ The game is structured with the following key HTML elements:
 
 **8. Ending the Game:** The _`endGame`_ function displays the game result message and prevents further interactions with the cards.
 
-# Screenshot of the Game _[Here](https://github.com/aliyev50/memory-game/issues/1#issue-2351729976)_
+
+ ## **Screenshot of the Game:** _[Here](https://github.com/aliyev50/memory-game/issues/1#issue-2351729976)_
+
 
 # 2. Next Steps:
 

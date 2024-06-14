@@ -25,7 +25,7 @@ function mixCards(array) {
   for (let i = array.length - 1; i > 0; i--) {
     // Generate a random index from 0 to i
     const j = Math.floor(Math.random() * (i + 1));
-     // Swap the elements at index i and index j
+     // Change the elements at index i and index j
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
@@ -34,17 +34,13 @@ function mixCards(array) {
 function makeCards () {
    // Clear existing content in the game board
   gameBoard.innerHTML = ""; 
-  // Iterate over each symbol in the shuffled cards array
+  // Iterate over each symbol in the mixed cards array
   cards.forEach((symbol) => {
      // Create a new div element for each card
     const card = document.createElement("div");
-    // Add the 'card' class to the newly created card element
     card.classList.add("card");
-    // Set a data attribute on the card element to store the symbol
     card.dataset.symbol = symbol;
-    // Add a click event listener to the card to handle flipping the card
     card.addEventListener("click", flipCard);
-    // Append the card element to the game board
     gameBoard.appendChild(card);
   });
 }
@@ -56,7 +52,7 @@ function flipCard(event) {
     card.classList.contains("flipped") ||
     card.classList.contains("matched") ||
     flippedCards.length === 2
-  ) {
+  ) {  
     return;
   }
 
